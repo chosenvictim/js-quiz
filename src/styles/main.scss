@@ -1,0 +1,56 @@
+@import './reset.scss';
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+p, span, li, a {
+    color: #FFF;
+}
+
+.questions-container {
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .question-item {
+        position: relative;
+        width: 500px;
+        height: 300px;
+        background-image: url('../assets/binding-dark.png');
+        background-color: #00613a;
+        border: 20px solid #5D2511;
+        padding: 10px 40px;
+        box-shadow: inset 0 0 15px #000000;
+        margin-bottom: 20px;
+    }
+    .select-options {
+        position: absolute;
+        bottom: 12px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        font-size: 22px;
+        .tick {
+            border: 1px solid #FFF;
+            padding: 10px 20px;
+            margin: 1px;
+        }
+    }
+}
+
+.answer-option {
+    font-size: 14px;
+}
