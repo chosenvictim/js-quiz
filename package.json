@@ -1,14 +1,14 @@
 {
-  "name": "jiffle-now",
+  "name": "JS-Quiz",
   "version": "1.0.0",
-  "description": "Jiffle now react code assignment",
+  "description": "JS Quiz made in React",
   "main": "main.js",
   "scripts": {
     "start": "webpack-dev-server --progress --colors --config ./webpack.config.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/choosenvictim/react-webpack-setup"
+    "url": "https://github.com/choosenvictim/js-quiz"
   },
   "babel": {
     "presets": [
