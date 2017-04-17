@@ -1,4 +1,4 @@
-# jifflenow-test
+# JS Quiz made in React/Redux
 
 I forked this project using my own React Webpack setup repo and then cut it down to minimalistic dependencies. 
 Things I have used here:-
